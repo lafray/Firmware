@@ -1,0 +1,14 @@
+# Mount Mixer (e.g. Gimbal, servo-controlled gimbal, etc...)
+
+
+# pitch
+
+# two input reference
+M: 2
+O:      10000  10000      0 -10000  10000
+
+# grup 6 First Payload, first function gain 100%
+S: 6 1  10000  10000      0 -10000  10000
+
+# grup 0 Flight Control, pitch gain 0%
+# S: 0 1  00000  00000      0 -10000  10000
